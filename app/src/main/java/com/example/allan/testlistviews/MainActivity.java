@@ -19,32 +19,32 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Student> names = new ArrayList<>();
 
-        Student allan = new Student("Allan", 50);
+        Student allan = new Student(R.drawable.ic_contacts,"Allan", 50);
         names.add(allan);
-        names.add(new Student("Hannan", 80));
-        names.add(new Student("Mohammad", 80));
-        names.add(new Student("Dali", 80));
-        names.add(new Student("Allan", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
-        names.add(new Student("Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Hannan", 80));
+        names.add(new Student(R.drawable.ic_contacts,"Mohammad", 80));
+        names.add(new Student(R.drawable.ic_android,"Dali", 80));
+        names.add(new Student(R.drawable.ic_contacts,"Allan", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
+        names.add(new Student(R.drawable.ic_android,"Ibrahim", 80));
 
 
         StudentAdapter namesAdapter = new StudentAdapter(this, R.layout.list_item, names);

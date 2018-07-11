@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -34,11 +35,13 @@ public class StudentAdapter extends ArrayAdapter {
 
         TextView name = convertView.findViewById(R.id.name);
         TextView mark = convertView.findViewById(R.id.mark);
+        ImageView image = convertView.findViewById(R.id.image_resource);
 
         Student student = objects.get(position);
 
         name.setText(student.getName());
         mark.setText(String.valueOf(student.getMark()));
+        image.setImageResource(student.getImageResourceId());
 
         return convertView;
     }
